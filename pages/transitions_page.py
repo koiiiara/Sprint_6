@@ -1,5 +1,4 @@
 import allure
-from conftest import driver
 from locators.transitions_page_locators import TransitionsPageLocators
 from pages.base_page import BasePage
 

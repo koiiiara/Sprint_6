@@ -1,5 +1,5 @@
 import allure
-from conftest import *
+import data
 from pages.transitions_page import TransitionsPage
 
 

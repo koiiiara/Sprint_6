@@ -1,9 +1,9 @@
 import allure
-import data
-from conftest import *
+import pytest
 from locators.main_page_locators import MainPageLocators
 from pages.main_page import MainPage
 from pages.order_page import OrderPage
+import data
 
 
 class TestOrderPage:

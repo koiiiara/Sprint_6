@@ -1,5 +1,4 @@
 import allure
-from conftest import driver
 from locators.order_page_locators import OrderPageLocators
 from pages.base_page import BasePage
 
@@ -12,7 +11,6 @@ class OrderPage(BasePage):
     @allure.step("Дожидаемся перехода на страницу заказа")
     def wait_order_page_load(self):
         self.find_element_with_wait(OrderPageLocators.NAME_FIELD_LOCATOR)
-
 
     @allure.step("Заполняем поля страницы заказа 'Для кого самокат'")
     def fill_order_client_fields(self, order_dataset):
